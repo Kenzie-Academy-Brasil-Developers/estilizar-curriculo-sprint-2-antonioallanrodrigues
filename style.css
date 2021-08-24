@@ -1,27 +1,101 @@
 .clear {
-	clear: both;
+    clear: both;
 }
 
 #headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
 }
 
 #name {
-	float: left;
+    float: left;
 }
 
 #contactDetails {
-	float: right;
+    float: right;
 }
 
 .sectionTitle {
-	float: left;
-	width: 25%;
+    float: left;
+    width: 25%;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+    float: right;
+    width: 72.5%;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
+}
+
+#headshot img {
+    border-radius: 50%;
+}
+
+#name {
+    float: left;
+    font: 'Helvetica', sans-serif;
+    color: #181818;
+}
+
+#contactDetails {
+    float: right;
+    color: #181818;
+}
+
+.sectionTitle {
+    float: left;
+    width: 25%;
+    color: #cf8a05;
+    font-family: 'Arial', sans-serif;
+}
+
+.sectionContent {
+    float: right;
+    width: 72.5%;
+    color: #444444;
+}
+
+.keySkills {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style: none;
+}
+
+.mainDetails {
+    display: inline-block, right;
+    border-bottom: thick;
+    border-bottom-color: #cf8a05;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+#top {
+    margin: 200px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#mainArea {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.borda {
+    border-top: solid;
+    border-width: 1px;
+    border-color: #dedede;
 }
